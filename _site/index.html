@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Recursive Awesome | Recursive Awesome uses Machine Learning and Artifical Intelligence in mobile apps and in the cloud to help companies make their products smarter and create better customer experiences.</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="Recursive Awesome" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Recursive Awesome uses Machine Learning and Artifical Intelligence in mobile apps and in the cloud to help companies make their products smarter and create better customer experiences." />
+<meta property="og:description" content="Recursive Awesome uses Machine Learning and Artifical Intelligence in mobile apps and in the cloud to help companies make their products smarter and create better customer experiences." />
+<link rel="canonical" href="http://localhost:4061/" />
+<meta property="og:url" content="http://localhost:4061/" />
+<meta property="og:site_name" content="Recursive Awesome" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Recursive Awesome" />
+<script type="application/ld+json">
+{"url":"http://localhost:4061/","headline":"Recursive Awesome","name":"Recursive Awesome","description":"Recursive Awesome uses Machine Learning and Artifical Intelligence in mobile apps and in the cloud to help companies make their products smarter and create better customer experiences.","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+  <link rel="stylesheet" href="/assets/css/style.css">
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"
+    /><link type="application/atom+xml" rel="alternate" href="http://localhost:4061/feed.xml" title="Recursive Awesome" />
+
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicons/favicon-16x16.png">
+<link rel="manifest" href="/assets/img/favicons/site.webmanifest">
+<link rel="mask-icon" href="/assets/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/assets/img/favicons/favicon.png">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body class='h-full'><nav
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white"
+    >
+      <div
+        class="container px-4 mx-auto flex flex-wrap items-center justify-between"
+      >
+        <div
+          class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start"
+        >
+          <a
+            class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-black"
+            href="/"
+            ><img src="/assets/img/ra-logo-horizontal-sm2.png"></a
+          ><button
+            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+            type="button"
+            onclick="toggleNavbar('example-collapse-navbar')"
+          >
+            <i class="text-black fas fa-bars"></i>
+          </button>
+        </div>
+        <div
+          class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
+          id="example-collapse-navbar"
+        >
+          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+              <li class="flex items-center">
+                <a
+                  class="lg:text-black lg:hover:text-orange-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  href="/blog"
+                  ><i
+                    class="lg:text-black-300 text-black-500 far fa-file-alt text-lg leading-lg mr-2"
+                  ></i>
+                  Blog</a
+                >
+              </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-black lg:hover:text-black-300 text-black-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://www.facebook.com/RecursiveAwesome" target="_blank"
+                ><i
+                  class="lg:text-black-300 text-black-500 fab fa-facebook text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Share</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-black lg:hover:text-black-300 text-black-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://twitter.com/recursiveawesum" target="_blank"
+                ><i
+                  class="lg:text-black-300 text-black-500 fab fa-twitter text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
+              >
+            </li>
+            <li class="flex items-center">
+              <a
+                class="lg:text-black lg:hover:text-black-300 text-black-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                href="https://github.com/recursiveawesome" target="_blank"
+                ><i
+                  class="lg:text-black-300 text-black-500 fab fa-github text-lg leading-lg "
+                ></i
+                ><span class="lg:hidden inline-block ml-2">Star</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>  <div class="text-gray-800 antialiased">
+    
+    <main>
+      <div
+        class="relative pt-24 pb-32 flex content-center items-center justify-center"
+        style="min-height: 75vh;"
+      >
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style='background-image: url("/assets/img/bk2.jpeg")'
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-70 bg-black"
+          ></span>
+        </div>
+        <div class="container relative mx-auto">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div class="pr-12">
+                <h1 class="text-white font-semibold text-5xl">
+                    <!-- Applying Machine Learning to Make Your Business Smarter -->
+                    <!-- Applying Machine Learning to Data from the Physical World -->
+                    <!-- Applying Machine Learning to Data from the Internet of Things -->
+                    Applying Machine Learning to Your IoT Data
+                </h1>
+                <p class="mt-4 text-lg text-gray-300">
+                  We specialize in helping companies use video, audio and sensor data from their products to make better better decisions and improve customer experiences.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px; transform: translateZ(0px);"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </div>
+      <section class="pb-20 bg-gray-300 -mt-24">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap">
+            <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400"
+                  >
+                    <i class="fas fa-award"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">Vision, Audio & Language</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                      In the cloud or at the edge. We have the experience in Computer Vision, Audio and Natural Language Processing to make your business intelligent.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-4/12 px-4 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-400"
+                  >
+                    <i class="fas fa-retweet"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">TensorFlow & PyTorch</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    We use only the best-in-class tools, languages and methodologies to bring the data you have to life. Actionable insights is what you can expect when you work with Recursive Awesome.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"
+              >
+                <div class="px-4 py-5 flex-auto">
+                  <div
+                    class="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400"
+                  >
+                    <i class="fas fa-fingerprint"></i>
+                  </div>
+                  <h6 class="text-xl font-semibold">iOS & Android Apps</h6>
+                  <p class="mt-2 mb-4 text-gray-600">
+                    With deep roots in technology, we have a team of engineers that is able to both train and optimize neural networks and build mobile applications to bring them to life with your customers.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>          
+          <div class="flex flex-wrap items-center mt-32">
+            <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div
+                class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100"
+              >
+                <i class="fas fa-user-friends text-xl"></i>
+              </div>
+              <h3 class="text-3xl mb-2 font-semibold leading-normal">
+                <!-- Working with us is a pleasure -->
+                <!-- We craft a custom approach with every client -->
+                Our business is based on solid relationships
+              </h3>
+              <p
+                class="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700"
+              >
+                After working for more than a decade helping companies acquire data using IoT technologies from their customers, products and equipment in the field, we are now exclusively focused on helping them unlock the value of this data!
+              </p>
+              <p
+                class="text-lg font-light leading-relaxed mt-0 mb-8 text-gray-700"
+              >
+                We offer a FREE, 30 minute consultation to discuss your business challenges. While each customer we work with has unique challenges, we bring the team and experience to help you achieve your goals.
+              </p>
+              <a
+                href="http://justingrammens.com"
+                class="font-bold text-gray-500 px-8 py-4 rounded-md bg-gray-50 hover:bg-gray-400 hover:text-gray-50"
+                >Connect with our Founder!</a>
+            </div>
+            <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div
+                class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-600"
+              >
+                <img
+                  alt="..."
+                  src="./assets/img/bk3.jpeg"
+                  class="w-full align-middle rounded-t-lg"
+                />
+                <blockquote class="relative p-8 mb-4">
+                  <svg
+                    preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 583 95"
+                    class="absolute left-0 w-full block"
+                    style="height: 95px; top: -94px;"
+                  >
+                    <polygon
+                      points="-30,95 583,95 583,65"
+                      class="text-orange-600 fill-current"
+                    ></polygon>
+                  </svg>
+                  <h4 class="text-xl font-bold text-white">
+                    AI &amp; ML Technology Services
+                  </h4>
+                  <p class="text-md font-light mt-2 text-white">
+                    Reach out and <a href="#contact-form">book a free consultation</a> from us or read some of our many articles, presentations and courses on the subject of the Artificial Intelligence of Things.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relative py-20">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px);"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                class="max-w-full rounded-lg shadow-lg"
+                src="./assets/img/social.jpg"
+              />
+              <div class="mt-6 text-center">
+                <button
+                  class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                  type="button"
+                ><a href="https://twitter.com/justingrammens" target="_blank">
+                  <i class="fab fa-twitter"></i></a></button
+                ><button
+                  class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                  type="button"
+                ><a href="https://linkedin.com/in/justingrammens" target="_blank">
+                  <i class="fab fa-linkedin"></i></a>
+                </button>
+              </div>
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <div
+                  class="text-white p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-orange-300"
+                >
+                  <i class="fas fa-rocket text-xl"></i>
+                </div>
+                <h3 class="text-3xl font-semibold">Thought Leadership</h3>
+                <p class="mt-4 text-lg leading-relaxed text-gray-600">
+                  Our Founder, Justin Grammens speaks at countless conferences and leads our organization to build the best Mobile, Cloud, and Edge applications that use Machine Learning to analyze data from sensors to better understand their customers, assets, and products in the field. This includes audio, video, GPS, and other sensor data from the physical world.
+                </p>
+                <ul class="list-none mt-6">
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-orange-200 mr-3"
+                          ><i class="fas fa-fingerprint"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Applied AI Podcast Host & Founder
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-orange-200 mr-3"
+                          ><i class="fab fa-html5"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">IoT Weekly Newsletter Founder</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span
+                          class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-white bg-orange-200 mr-3"
+                          ><i class="far fa-paper-plane"></i
+                        ></span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">Lab651 Cofounder & Adjunct Professor</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pt-20 pb-48">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center text-center mb-24">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold">AI & IoT organizations that we built and continue to support</h2>
+              <p class="text-lg leading-relaxed m-4 text-gray-600">
+                We believe in building strong communities and both sponsoring and supporting those organizations who are doing work in the area of Machine Learning and the Internet of Things.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <a href="https://emtechnorth.org" target="_blank">
+                <img
+                  alt="Emerging Technologies North Logo"
+                  src="./assets/img/emt.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                </a>
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">EmTech North</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    501(c)(3) Non-Profit
+                  </p>
+                  <div class="mt-6">
+                    <button
+                      class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    ><a href="http://twitter.com/emtechnorth" target="_blank">
+                      <i class="fab fa-twitter"></i></a></button>
+                    <button
+                      class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    ><a href="https://www.linkedin.com/company/emtechnorth" target="_blank">
+                     <i class="fab fa-linkedin"></i></a>
+                </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <a href="https://appliedai.mn" target="_blank">
+                <img
+                  alt="Applied AI Logo"
+                  src="./assets/img/appliedai.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                </a>
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Applied AI</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    AI Meetup & Podcast
+                  </p>
+                  <div class="mt-6">
+                    <button
+                        class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                    ><a href="http://twitter.com/appliedaimn" target="_blank">
+                        <i class="fab fa-twitter"></i></a></button>
+                    <button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <a href="https://www.facebook.com/groups/appliedaimn" target="_blank">
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/lab651.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Lab651</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    IoT Services
+                  </p>
+                  <div class="mt-6">
+                    <button
+                        class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                    ><a href="http://twitter.com/lab_651" target="_blank">
+                        <i class="fab fa-twitter"></i></a></button>
+                    <button
+                      class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    ><a href="https://www.linkedin.com/company/lab651" target="_blank">
+                     <i class="fab fa-linkedin"></i></a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="./assets/img/iotweekly.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">IoT Weekly News</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Weekly Publication
+                  </p>
+                  <div class="mt-6">
+                    <button
+                        class="bg-blue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                        type="button"
+                    ><a href="http://twitter.com/iotweeklynews" target="_blank">
+                        <i class="fab fa-twitter"></i></a></button>
+                    <button
+                      class="bg-blue-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    ><a href="https://www.linkedin.com/company/iot-weekly-news" target="_blank">
+                     <i class="fab fa-linkedin"></i></a>
+                    </button>
+                    <button
+                      class="bg-blue-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
+                      type="button"
+                    >
+                      <a href="https://www.facebook.com/iotweeklynews" target="_blank">
+                          <i class="fab fa-facebook-f"></i>
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="pb-20 relative block bg-orange-900">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px; transform: translateZ(0px);"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-orange-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div class="flex flex-wrap text-center justify-center">
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-4xl font-semibold text-white">Let's Talk Data!</h2>
+              <p class="text-lg leading-relaxed mt-4 mb-4 text-black-500">
+                We love talking with businesses about how we approach every project
+                with your data by working with clearly defined business objectives before
+                we start building your custom data architecture.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-wrap mt-12 justify-center">
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-medal text-xl"></i>
+              </div>
+              <h6 class="text-xl mt-5 font-semibold text-white">
+                Machine Learning
+              </h6>
+              <p class="mt-2 mb-4 text-black-500">
+                We use Machine Learning to help you achieve the greatest value from your data to build superior products.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-poll text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">
+                Agile Process
+              </h5>
+              <p class="mt-2 mb-4 text-black-500">
+                We help you move quickly by bringing a proven process that starts with solid
+                planning and decades of experience.
+              </p>
+            </div>
+            <div class="w-full lg:w-3/12 px-4 text-center">
+              <div
+                class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center"
+              >
+                <i class="fas fa-lightbulb text-xl"></i>
+              </div>
+              <h5 class="text-xl mt-5 font-semibold text-white">Software Engineering</h5>
+              <p class="mt-2 mb-4 text-black-500">
+                We bring a team of expert mobile application engineers that enable us to create the right solution 
+                for your business.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a id="contact-form"/>
+      <section class="relative block py-24 lg:pt-0 bg-orange-900">
+        <div class="container mx-auto px-4">
+          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
+            <div class="w-full lg:w-6/12 px-4">
+              <div
+                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
+              >
+                <div class="flex-auto p-5 lg:p-10">
+                  <h4 class="text-2xl font-semibold">Want to work with us?</h4>
+                  <p class="leading-relaxed mt-1 mb-4 text-gray-600">
+                    Complete this form and we will get back to you within 24 hours
+                    to discuss how we can provide you with a free, no obligation assessment of your project.
+                  </p>
+                  <form id="my-form" action="https://formspree.io/f/mrgreblj" method="POST">
+                  <div class="relative w-full mb-3 mt-8">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="full-name"
+                      >Full Name</label
+                    ><input
+                      name="full_name"
+                      type="text"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Full Name"
+                      style="transition: all 0.15s ease 0s;"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="email"
+                      >Email</label
+                    ><input
+                      name="email"
+                      type="email"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Email"
+                      style="transition: all 0.15s ease 0s;"
+                    />
+                  </div>
+                  <div class="relative w-full mb-3">
+                    <label
+                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
+                      for="message"
+                      >Message</label
+                    ><textarea
+                      name="message"
+                      rows="4"
+                      cols="80"
+                      class="px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:shadow-outline w-full"
+                      placeholder="Type a message..."
+                    ></textarea>
+                  </div>
+                  <div class="text-center mt-6">
+                    <button
+                      id="my-form-button"
+                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
+                      style="transition: all 0.15s ease 0s;"
+                    >
+                      Submit
+                    </button>
+                    <h4 class="text-xl font-bold" id="my-form-status"></h4>
+                  </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>    
+  </div>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+<footer class="relative bg-gray-300 pt-8 pb-6">
+
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap">
+      <div class="w-full lg:w-5/12 px-4">
+        <h4 class="text-3xl font-semibold">Let's Connect!</h4>
+        <h5 class="text-lg mt-0 mb-2 text-gray-700">
+          Find us on any of these platforms and follow us.
+        </h5>
+        <div class="mt-6">
+          <button
+            class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+            type="button"
+          >
+          <a href="https://twitter.com/recursiveawesum" target="_blank">
+            <i class="flex fab fa-twitter"></i></a></button
+          ><button
+            class="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+            type="button"
+          >
+          <a href="https://www.facebook.com/RecursiveAwesome" target="_blank">
+            <i class="flex fab fa-facebook-square"></i></a></button
+          ><button
+            class="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
+            type="button"
+          >
+          <a href="https://github.com/recursiveawesome" target="_blank">
+              <i class="flex fab fa-github"></i></a>
+          </button>
+        </div>
+        <div class="text-gray-600 text-sm py-1 mt-4">
+          Copyright © 2021
+          <a
+            href="/"
+            class="text-gray-600 hover:text-gray-900"
+            >Recursive Awesome, LLC</a>
+        </div>
+      </div>
+      <div class="w-full lg:w-6/12 px-4">
+        <div class="flex flex-wrap items-top mb-6 mt-4">
+          <div class="w-full lg:w-4/12 md:w-6/12 px-0 ml-auto">
+            <span
+              class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+              >Useful Links</span
+            >
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="/about"
+                  >About Us</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="/blog"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="https://www.github.com/recursiveawesome"
+                  >Github</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full lg:w-4/12 md:w-6/12 mt-4 sm:mt-0 md:px-4">
+            <span
+              class="block uppercase text-gray-600 text-sm font-semibold mb-2"
+              >Other Resources</span
+            >
+            <ul class="list-unstyled">
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="/terms"
+                  >Terms &amp; Conditions</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="/privacy-policy"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a
+                  class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
+                  href="/contact-us"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer><script async defer src="https://sdk.soopr.co/soopr.js"></script><!-- Place this script at the end of the body tag -->
+
+    <script>
+        var form = document.getElementById("my-form");
+        async function handleSubmit(event) {
+          event.preventDefault();
+          var status = document.getElementById("my-form-status");
+          var data = new FormData(event.target);
+          fetch(event.target.action, {
+            method: form.method,
+            body: data,
+            headers: {
+                'Accept': 'application/json'
+            }
+          }).then(response => {
+            status.innerHTML = "Thank you for reaching out! We will be in contact as soon as possible.";
+            form.reset()
+          }).catch(error => {
+            status.innerHTML = "Oops! There was a problem submitting your contact information. Please try again."
+          });
+        }
+        form.addEventListener("submit", handleSubmit)
+    </script>
+
+</body>
+
+</html>
