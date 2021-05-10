@@ -1,8 +1,8 @@
 title: Recursive Awesome
 description: > # this means to ignore newlines until "show_excerpts:"
-  Recursive Awesome uses Machine Learning and Artifical Intelligence in mobile apps and 
-  in the cloud to help companies make their products smarter and create better customer experiences.
-url: https://cookie-demo.netlify.app # change this URL, this is needed for generating right sitemap
+  Recursive Awesome uses Machine Learning and Artifical Intelligence with mobile and cloud applications to help companies make their products smarter and create better customer experiences.
+#url: https://cookie-demo.netlify.app # change this URL, this is needed for generating right sitemap
+url: https://recursiveawesome.com # change this URL, this is needed for generating right sitemap
 
 permalink: "/blog/:title/"
 
