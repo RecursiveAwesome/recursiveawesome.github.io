@@ -20,8 +20,6 @@ css_dir: "assets/css" # defaults to "css"
 
 highlighter: rouge
 
-layout: default
-
 collections:
   posts:
     output: true
