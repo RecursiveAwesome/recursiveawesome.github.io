@@ -21,6 +21,8 @@ css_dir: "assets/css" # defaults to "css"
 
 highlighter: rouge
 
+theme: null
+
 collections:
   posts:
     output: true
