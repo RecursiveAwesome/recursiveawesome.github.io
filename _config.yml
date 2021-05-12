@@ -20,7 +20,7 @@ css_dir: "assets/css" # defaults to "css"
 
 highlighter: rouge
 
-theme: jekyll-theme-time-machine
+remote_theme: abhinavs/cookie
 
 collections:
   posts:
