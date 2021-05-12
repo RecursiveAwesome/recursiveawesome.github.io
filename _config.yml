@@ -20,7 +20,7 @@ css_dir: "assets/css" # defaults to "css"
 
 highlighter: rouge
 
-remote_theme: abhinavs/cookie
+#remote_theme: abhinavs/cookie
 
 collections:
   posts:
