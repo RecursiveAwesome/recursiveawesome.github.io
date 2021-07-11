@@ -37,6 +37,16 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53820023-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53820023-2');
+</script>
+
 </head>
 <body class='h-full'><nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white"
@@ -247,7 +257,14 @@ Founder, Recursive Awesome</p>
       </div>
     </div>
   </div>
-</footer><script async defer src="https://sdk.soopr.co/soopr.js"></script><!-- Place this script at the end of the body tag -->
+</footer><script async defer src="https://sdk.soopr.co/soopr.js"></script><script>
+        function toggleNavbar(collapseID) {
+            document.getElementById(collapseID).classList.toggle("hidden");
+            document.getElementById(collapseID).classList.toggle("block");
+        }
+    </script>
+
+    <!-- Place this script at the end of the body tag -->
 
     <script>
         var form = document.getElementById("my-form");

@@ -13,11 +13,11 @@
 <meta property="og:url" content="http://localhost:4061/privacy-policy" />
 <meta property="og:site_name" content="Recursive Awesome" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-06-09T21:49:07-05:00" />
+<meta property="article:published_time" content="2021-07-11T16:31:28-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Privacy Policy" />
 <script type="application/ld+json">
-{"url":"http://localhost:4061/privacy-policy","headline":"Privacy Policy","dateModified":"2021-06-09T21:49:07-05:00","datePublished":"2021-06-09T21:49:07-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4061/privacy-policy"},"description":"Your privacy is important to us. It is Recursive Awesome’s policy to respect your privacy regarding any information we may collect from you across our website, https://recursiveawesome.com, and other sites we own and operate.","@type":"BlogPosting","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4061/privacy-policy","headline":"Privacy Policy","dateModified":"2021-07-11T16:31:28-05:00","datePublished":"2021-07-11T16:31:28-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4061/privacy-policy"},"description":"Your privacy is important to us. It is Recursive Awesome’s policy to respect your privacy regarding any information we may collect from you across our website, https://recursiveawesome.com, and other sites we own and operate.","@type":"BlogPosting","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
@@ -37,6 +37,16 @@
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
 <meta name="theme-color" content="#ffffff">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53820023-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-53820023-2');
+</script>
+
 </head>
 <body class='h-full'><nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white"
@@ -236,7 +246,14 @@
       </div>
     </div>
   </div>
-</footer><script async defer src="https://sdk.soopr.co/soopr.js"></script><!-- Place this script at the end of the body tag -->
+</footer><script async defer src="https://sdk.soopr.co/soopr.js"></script><script>
+        function toggleNavbar(collapseID) {
+            document.getElementById(collapseID).classList.toggle("hidden");
+            document.getElementById(collapseID).classList.toggle("block");
+        }
+    </script>
+
+    <!-- Place this script at the end of the body tag -->
 
     <script>
         var form = document.getElementById("my-form");
