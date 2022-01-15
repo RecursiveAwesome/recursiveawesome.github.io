@@ -1,5 +1,130 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:4061/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4061/" rel="alternate" type="text/html" /><updated>2021-07-11T16:43:04-05:00</updated><id>http://localhost:4061/feed.xml</id><title type="html">Recursive Awesome</title><subtitle>Recursive Awesome uses Machine Learning and Artifical Intelligence with mobile and cloud applications to help companies make their products smarter and create better customer experiences.
-</subtitle><entry><title type="html">The Artificial Intelligence of Things</title><link href="http://localhost:4061/blog/aiot" rel="alternate" type="text/html" title="The Artificial Intelligence of Things" /><published>2021-04-25T00:00:00-05:00</published><updated>2021-04-25T00:00:00-05:00</updated><id>http://localhost:4061/blog/aiot</id><content type="html" xml:base="http://localhost:4061/blog/aiot">&lt;p&gt;There’s a new phase going around the past few years. It’s one in which I believe company executive and business owners of all sizes should be keeping their eyes on and that is &lt;strong&gt;AIoT&lt;/strong&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://localhost:4061/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4061/" rel="alternate" type="text/html" /><updated>2022-01-14T20:36:52-06:00</updated><id>http://localhost:4061/feed.xml</id><title type="html">Recursive Awesome</title><subtitle>Recursive Awesome uses Machine Learning and Artifical Intelligence with mobile and cloud applications to help companies make their products smarter and create better customer experiences.
+</subtitle><entry><title type="html">The Internet of Things – The Convergence of Technologies Enabling Disruption</title><link href="http://localhost:4061/blog/aiot2" rel="alternate" type="text/html" title="The Internet of Things – The Convergence of Technologies Enabling Disruption" /><published>2021-09-13T00:00:00-05:00</published><updated>2021-09-13T00:00:00-05:00</updated><id>http://localhost:4061/blog/aiot2</id><content type="html" xml:base="http://localhost:4061/blog/aiot2">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;Greetings! What follows is an intereview I did with the “Inspired Business Interview: Thinking Big” group leading up to an adress that I made to &lt;a href=&quot;https://jcu.edu/&quot;&gt;John Corroll University&lt;/a&gt; in 2021 as part of their “Thinking Big” series on how to help leaders build nad grow their ideas to leverage both Arificial Intelligence and the Internet of Things. Two areas where I have many years of experience in helping compaines execute their vision.&lt;/p&gt;
+
+&lt;p&gt;I had an amazing time presenting both to JCU, but also going through an interview with the folks at the &lt;a href=&quot;https://gradschool.jcu.edu/boler-college-of-business.php&quot;&gt;Boler College of Business&lt;/a&gt; and &lt;a href=&quot;https://www.elliance.com/&quot;&gt;Elliance&lt;/a&gt; to help formulate the qurestions and build an intersting topic of discussion with myself, our team and others in the industry looking at ways to builid AIoT into their organization.&lt;/p&gt;
+
+&lt;p&gt;Let’s begin with some of the questions brought to me by Todd and Noori at Eliance on some of my perspectives on AI/ML and how it works with IoT.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Could you please give a quick explanation of the logic underpinning machine learning?&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Justin: Rather than traditional programming that deals with&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT:&lt;/strong&gt; Data and Rules and OUTPUT: Answers&lt;/p&gt;
+
+&lt;p&gt;You now with Machine learning have a case where you feed it&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;INPUT:&lt;/strong&gt; Answers and Data and OUTPUT: Rules (model)&lt;/p&gt;
+
+&lt;p&gt;Which you then can use for prediction in future problems.&lt;/p&gt;
+
+&lt;p&gt;There are supervised and unsupervised learning:
+Supervised is where everything is TAGGED – here’s a cat, a dog, etc&lt;/p&gt;
+
+&lt;p&gt;UNSUPERVISED is where you give the computer all sorts of data and it ried to cluster/figure out what specific features are common.&lt;/p&gt;
+
+&lt;p&gt;Example: Creative writing by computers, generation of video. GENERATIVE TASKS. Learn how to play chess without having to program all of the moves.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What are some basic things everyone should know or understand about machine learning and AI?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This beign a very broad and over reaching question. Here’s some initial thoughts that I would like you to take away.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;It’s not magic.&lt;/li&gt;
+  &lt;li&gt;It’s becoming easier for everyone to do every day.&lt;/li&gt;
+  &lt;li&gt;It all comes down to the amount of data that you have and there are large well known data sets out there.&lt;/li&gt;
+  &lt;li&gt;It’s not giving definitive answer. It’s all probabilities.&lt;/li&gt;
+  &lt;li&gt;The hardest part if tagging and labeling the data.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;The data we have today when it comes to speech and images has bias built-in. Amazon hiring tool used historical data on resumes to screen for new candidates and since most were all men it filtered out women. Voice recognition is another.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What AI and machine learning trends are you most excited about?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;There’s lots to be excited about! Here’s a few just to name:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Creative writing / text generation. GPT-3&lt;/li&gt;
+  &lt;li&gt;Self driving cars.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Better prediction on when things will fail in our home. Someday you’ll come home and piece to fix your furnace will be on your front steps. You furance ordered it.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are some benefits of AI and machine learning that aren’t often discussed?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How it can take away many of the MUNDANE jobs that humans do these days. Far too often there is focus on it taking away jobs rather than complementing how they can work together.&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Farming &amp;amp; Medicine – better results by a machine filtering over the simages or driving the tractor.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are some of the most common ways that AI and machine learning improve basic day-to-day business functions? How do you see this expanding over the next 5 years? 10 years?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation for sure. More and more factories will be able to use data to run more efficiently&lt;/li&gt;
+  &lt;li&gt;CONSUMER ENGAGEMENT – Better understand how consumers use their appliances, products and services in the field to understand patterns and build better services.&lt;/li&gt;
+  &lt;li&gt;Voice applications – already seeing asking of questions in home&lt;/li&gt;
+  &lt;li&gt;10 years – Apple Watch &amp;amp; Futness trackers with data going to your doctor in realtime and seeing health issues before you even recoginize them.&lt;/li&gt;
+  &lt;li&gt;Does this vary between startups vs. large enterprises?  Yes - in some ways. Cost to bring these products to market can be millions of dollars. However large companies are stuck with existing customers that don’t want these technologies yet. Read: Crossing the Chasm or the Innovators Dilemma. These are started by small companies and. Then acquired by others.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;How important is it for those in business roles that aren’t necessarily technical to understand AI models, tools, and capabilities in this changing landscape?
+    &lt;ul&gt;
+      &lt;li&gt;Very Important if you and your business are going to remain competitive.&lt;/li&gt;
+      &lt;li&gt;Think of the dawn of the Internet, no one had a website. Now you need one. Same thing with AI/IoT and analysis.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How can AI and machine learning improve the following functional areas: finance, supply chain, accounting, planning/forecasting, M&amp;amp;A?
+    &lt;ul&gt;
+      &lt;li&gt;Finance – better prediction of planning models. Hand done statistical regression models can take time&lt;/li&gt;
+      &lt;li&gt;Supply chain – Just in time delivery&lt;/li&gt;
+      &lt;li&gt;Accounting – Looking at where to best place your financial assets for the best return&lt;/li&gt;
+      &lt;li&gt;M&amp;amp;A – Should your company merge with another company – can use interviews with employees and sentiment analysis to see if there’s a good fit.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Are there specific industries where these emerging technologies carry more weight? What is one area/sector/industry that you see AI expanding into in the next 5 years?
+    &lt;ol&gt;
+      &lt;li&gt;Anything that has a high value asset will come first
+        &lt;ul&gt;
+          &lt;li&gt;Healthcare&lt;/li&gt;
+          &lt;li&gt;Finance&lt;/li&gt;
+          &lt;li&gt;Food Production&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Can you address the fear that people have about the implications of AI on the job market? Why should the layperson not be afraid of AI?
+    &lt;ul&gt;
+      &lt;li&gt;We have gone through these revolutions before and humans have adapted to it.&lt;/li&gt;
+      &lt;li&gt;Horse to Car. Agriculture to Industrial.&lt;/li&gt;
+      &lt;li&gt;Look at something as simple as the barcode or self checkout – not as many cashiers at target, but do people really want to be typing or scanning food all day? Forces us to level up our workforce and think about how we can better optimize what we do as humans. The care, empathay, personalization, emotion reading jobs.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You note that that live coaching brings a “human touch” to Captovation. How does this reflect the future of AI in communications? How permanent will the d need for a “human touch” be in roles involving language, communications, and more?
+    &lt;ul&gt;
+      &lt;li&gt;It will be essential. The computer can only go so far and it doesn’t have true empathy for what another human is going through. It’s with this experience and feelings that humans will always remain in the loop of technology and services.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;How should business and other non-technical students be taught the skills necessary to utilize machine learning and AI to prevent themselves from being made redundant by the same technology?
+    &lt;ul&gt;
+      &lt;li&gt;Take a class at your local university or on coursera.&lt;/li&gt;
+      &lt;li&gt;Keep up to date with AI trade journals &amp;amp; websites and meetups. Google for groups and people you can meet. Subscribe to iotweeklynews.com or attend APPLIEDAI.MN&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;What are some of the key subjects you touch on in your curriculum when teaching courses in the Internet of Things?
+    &lt;ul&gt;
+      &lt;li&gt;Defining what IoT is  and where it is on the adoption curve.&lt;/li&gt;
+      &lt;li&gt;Some of the areas of concern with IoT ( Security, Data Privacy, Usability ) and real world examples&lt;/li&gt;
+      &lt;li&gt;Getting hands on by programming sensors and getting data&lt;/li&gt;
+      &lt;li&gt;Create a capstone project&lt;/li&gt;
+      &lt;li&gt;Realize it’s only a 15 week course and understanding what is required to continue on&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Intro Greetings! What follows is an intereview I did with the “Inspired Business Interview: Thinking Big” group leading up to an adress that I made to John Corroll University in 2021 as part of their “Thinking Big” series on how to help leaders build nad grow their ideas to leverage both Arificial Intelligence and the Internet of Things. Two areas where I have many years of experience in helping compaines execute their vision.</summary></entry><entry><title type="html">The Artificial Intelligence of Things</title><link href="http://localhost:4061/blog/aiot" rel="alternate" type="text/html" title="The Artificial Intelligence of Things" /><published>2021-04-25T00:00:00-05:00</published><updated>2021-04-25T00:00:00-05:00</updated><id>http://localhost:4061/blog/aiot</id><content type="html" xml:base="http://localhost:4061/blog/aiot">&lt;p&gt;There’s a new phase going around the past few years. It’s one in which I believe company executive and business owners of all sizes should be keeping their eyes on and that is &lt;strong&gt;AIoT&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;The AIoT is short for the &lt;strong&gt;&lt;em&gt;Artificial Intelligence of Things&lt;/em&gt;&lt;/strong&gt; . It’s the convergence of both Artificial Intelligence and the Internet of Things. If you don’t know me, you probably wouldn’t know, but I’ve been keenly aware and building communities around the Internet of Things for close to a decade, even before the term was picked up and in widespread usage. I co-founded a non-profit and conferences called &lt;a href=&quot;https://iotfuse.com&quot;&gt;IoTFuse&lt;/a&gt;, started the first &lt;a href=&quot;https://iothackday.mn&quot;&gt;Internet of Things Hackday&lt;/a&gt;, started one of the first publications called &lt;a href=&quot;https://iotweeklynews.com&quot;&gt;IoT Weekly News&lt;/a&gt; and created a &lt;a href=&quot;https://www.stthomas.edu/gradsoftware/about/faculty/justin-grammens.html&quot;&gt;graduate level course&lt;/a&gt; at the University of Saint Thomas on the Internet of Things.&lt;/p&gt;
 
