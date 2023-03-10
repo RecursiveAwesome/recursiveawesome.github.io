@@ -1,0 +1,127 @@
+I"!<h2 id="intro">Intro</h2>
+<p>Greetings! What follows is an intereview I did with the “Inspired Business Interview: Thinking Big” group leading up to an adress that I made to <a href="https://jcu.edu/">John Corroll University</a> in 2021 as part of their “Thinking Big” series on how to help leaders build nad grow their ideas to leverage both Arificial Intelligence and the Internet of Things. Two areas where I have many years of experience in helping compaines execute their vision.</p>
+
+<p>I had an amazing time presenting both to JCU, but also going through an interview with the folks at the <a href="https://gradschool.jcu.edu/boler-college-of-business.php">Boler College of Business</a> and <a href="https://www.elliance.com/">Elliance</a> to help formulate the qurestions and build an intersting topic of discussion with myself, our team and others in the industry looking at ways to builid AIoT into their organization.</p>
+
+<p>Let’s begin with some of the questions brought to me by Todd and Noori at Eliance on some of my perspectives on AI/ML and how it works with IoT.</p>
+
+<ol>
+  <li><strong>Could you please give a quick explanation of the logic underpinning machine learning?</strong></li>
+</ol>
+
+<p>Justin: Rather than traditional programming that deals with</p>
+
+<p><strong>INPUT:</strong> Data and Rules and OUTPUT: Answers</p>
+
+<p>You now with Machine learning have a case where you feed it</p>
+
+<p><strong>INPUT:</strong> Answers and Data and OUTPUT: Rules (model)</p>
+
+<p>Which you then can use for prediction in future problems.</p>
+
+<p>There are supervised and unsupervised learning:
+Supervised is where everything is TAGGED – here’s a cat, a dog, etc</p>
+
+<p>UNSUPERVISED is where you give the computer all sorts of data and it ried to cluster/figure out what specific features are common.</p>
+
+<p>Example: Creative writing by computers, generation of video. GENERATIVE TASKS. Learn how to play chess without having to program all of the moves.</p>
+
+<ol>
+  <li>What are some basic things everyone should know or understand about machine learning and AI?</li>
+</ol>
+
+<p>This beign a very broad and over reaching question. Here’s some initial thoughts that I would like you to take away.</p>
+
+<ol>
+  <li>It’s not magic.</li>
+  <li>It’s becoming easier for everyone to do every day.</li>
+  <li>It all comes down to the amount of data that you have and there are large well known data sets out there.</li>
+  <li>It’s not giving definitive answer. It’s all probabilities.</li>
+  <li>The hardest part if tagging and labeling the data.</li>
+  <li>
+    <p>The data we have today when it comes to speech and images has bias built-in. Amazon hiring tool used historical data on resumes to screen for new candidates and since most were all men it filtered out women. Voice recognition is another.</p>
+  </li>
+  <li>What AI and machine learning trends are you most excited about?</li>
+</ol>
+
+<p>There’s lots to be excited about! Here’s a few just to name:</p>
+
+<ol>
+  <li>Creative writing / text generation. GPT-3</li>
+  <li>Self driving cars.</li>
+  <li>
+    <p>Better prediction on when things will fail in our home. Someday you’ll come home and piece to fix your furnace will be on your front steps. You furance ordered it.</p>
+  </li>
+  <li>
+    <p>What are some benefits of AI and machine learning that aren’t often discussed?</p>
+  </li>
+  <li>How it can take away many of the MUNDANE jobs that humans do these days. Far too often there is focus on it taking away jobs rather than complementing how they can work together.</li>
+  <li>
+    <p>Farming &amp; Medicine – better results by a machine filtering over the simages or driving the tractor.</p>
+  </li>
+  <li>What are some of the most common ways that AI and machine learning improve basic day-to-day business functions? How do you see this expanding over the next 5 years? 10 years?</li>
+</ol>
+
+<ul>
+  <li>Automation for sure. More and more factories will be able to use data to run more efficiently</li>
+  <li>CONSUMER ENGAGEMENT – Better understand how consumers use their appliances, products and services in the field to understand patterns and build better services.</li>
+  <li>Voice applications – already seeing asking of questions in home</li>
+  <li>10 years – Apple Watch &amp; Futness trackers with data going to your doctor in realtime and seeing health issues before you even recoginize them.</li>
+  <li>Does this vary between startups vs. large enterprises?  Yes - in some ways. Cost to bring these products to market can be millions of dollars. However large companies are stuck with existing customers that don’t want these technologies yet. Read: Crossing the Chasm or the Innovators Dilemma. These are started by small companies and. Then acquired by others.</li>
+</ul>
+
+<ol>
+  <li>How important is it for those in business roles that aren’t necessarily technical to understand AI models, tools, and capabilities in this changing landscape?
+    <ul>
+      <li>Very Important if you and your business are going to remain competitive.</li>
+      <li>Think of the dawn of the Internet, no one had a website. Now you need one. Same thing with AI/IoT and analysis.</li>
+    </ul>
+  </li>
+  <li>How can AI and machine learning improve the following functional areas: finance, supply chain, accounting, planning/forecasting, M&amp;A?
+    <ul>
+      <li>Finance – better prediction of planning models. Hand done statistical regression models can take time</li>
+      <li>Supply chain – Just in time delivery</li>
+      <li>Accounting – Looking at where to best place your financial assets for the best return</li>
+      <li>M&amp;A – Should your company merge with another company – can use interviews with employees and sentiment analysis to see if there’s a good fit.</li>
+    </ul>
+  </li>
+  <li>Are there specific industries where these emerging technologies carry more weight? What is one area/sector/industry that you see AI expanding into in the next 5 years?
+    <ol>
+      <li>Anything that has a high value asset will come first
+        <ul>
+          <li>Healthcare</li>
+          <li>Finance</li>
+          <li>Food Production</li>
+        </ul>
+      </li>
+    </ol>
+  </li>
+  <li>Can you address the fear that people have about the implications of AI on the job market? Why should the layperson not be afraid of AI?
+    <ul>
+      <li>We have gone through these revolutions before and humans have adapted to it.</li>
+      <li>Horse to Car. Agriculture to Industrial.</li>
+      <li>Look at something as simple as the barcode or self checkout – not as many cashiers at target, but do people really want to be typing or scanning food all day? Forces us to level up our workforce and think about how we can better optimize what we do as humans. The care, empathay, personalization, emotion reading jobs.</li>
+    </ul>
+  </li>
+  <li>You note that that live coaching brings a “human touch” to Captovation. How does this reflect the future of AI in communications? How permanent will the d need for a “human touch” be in roles involving language, communications, and more?
+    <ul>
+      <li>It will be essential. The computer can only go so far and it doesn’t have true empathy for what another human is going through. It’s with this experience and feelings that humans will always remain in the loop of technology and services.</li>
+    </ul>
+  </li>
+  <li>How should business and other non-technical students be taught the skills necessary to utilize machine learning and AI to prevent themselves from being made redundant by the same technology?
+    <ul>
+      <li>Take a class at your local university or on coursera.</li>
+      <li>Keep up to date with AI trade journals &amp; websites and meetups. Google for groups and people you can meet. Subscribe to iotweeklynews.com or attend APPLIEDAI.MN</li>
+    </ul>
+  </li>
+  <li>What are some of the key subjects you touch on in your curriculum when teaching courses in the Internet of Things?
+    <ul>
+      <li>Defining what IoT is  and where it is on the adoption curve.</li>
+      <li>Some of the areas of concern with IoT ( Security, Data Privacy, Usability ) and real world examples</li>
+      <li>Getting hands on by programming sensors and getting data</li>
+      <li>Create a capstone project</li>
+      <li>Realize it’s only a 15 week course and understanding what is required to continue on</li>
+    </ul>
+  </li>
+</ol>
+:ET

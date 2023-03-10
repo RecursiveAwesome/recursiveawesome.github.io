@@ -1,0 +1,34 @@
+I"�	<div class="container max-w-screen-md py-24 md:py-28 mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="text-4xl font-black">Our Blog</h1>
+    <p class="content-text text-lg mt-6">
+    Welcome to the Recursive Awesome blog! This is where we post all the latest articles and inforomation related
+    to our company, the customers we serve and the applications of Machine Learning to the Internet of Things.
+    We hope you enjoy what we share with you and reach out if there's further waysin which we can help you bring
+    the power of Machine Learning to the image, audio and sensor data within your organization.
+    </p>
+  <ul class="mt-12"><li class="mt-16 list-reset">
+      <time class="uppercase text-xs text-gray-500 font-bold">Sep 13, 2021</time>
+      <h2 class="mt-1 text-2xl tracking-tight font-extrabold text-gray-900 sm:leading-none md:text-3xl">
+        <a href="/blog/aiot2">The Internet of Things – The Convergence of Technologies Enabling Disruption</a>
+      </h2>
+      <div class="mt-6 post-content"><h2 id="intro">Intro</h2>
+<p>Greetings! What follows is an intereview I did with the “Inspired Business Interview: Thinking Big” group leading up to an adress that I made to <a href="https://jcu.edu/">John Corroll University</a> in 2021 as part of their “Thinking Big” series on how to help leaders build nad grow their ideas to leverage both Arificial Intelligence and the Internet of Things. Two areas where I have many years of experience in helping compaines execute their vision.</p>
+</div>
+      <div class="mt-10">
+        <a class="text-blue-500 uppercase text-sm tracking-wide font-black content-link" href="/blog/aiot2">Read More</a>
+      </div>
+    </li>
+    <hr class="w-full bg-gray-100 my-12" style="height: 1px;" /><li class="mt-16 list-reset">
+      <time class="uppercase text-xs text-gray-500 font-bold">Apr 25, 2021</time>
+      <h2 class="mt-1 text-2xl tracking-tight font-extrabold text-gray-900 sm:leading-none md:text-3xl">
+        <a href="/blog/aiot">The Artificial Intelligence of Things</a>
+      </h2>
+      <div class="mt-6 post-content"><p>There’s a new phase going around the past few years. It’s one in which I believe company executive and business owners of all sizes should be keeping their eyes on and that is <strong>AIoT</strong>.</p>
+</div>
+      <div class="mt-10">
+        <a class="text-blue-500 uppercase text-sm tracking-wide font-black content-link" href="/blog/aiot">Read More</a>
+      </div>
+    </li>
+    <hr class="w-full bg-gray-100 my-12" style="height: 1px;" /></ul>
+</div>
+:ET
