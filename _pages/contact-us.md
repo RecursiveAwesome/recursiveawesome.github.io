@@ -14,7 +14,7 @@ Additionally, you can also submit a request via our [contact form](/#contact-for
 
 Recursive Awesome  
 550 Vandalia St.  
-Suite #224   
+Suite #231   
 Saint Paul, MN 55114  
 
 **Phone**
